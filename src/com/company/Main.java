@@ -1,7 +1,5 @@
 package com.company;
 
-
-
 public class Main {
 
     public static void main(String[] args) {
@@ -9,5 +7,10 @@ public class Main {
         float number1 = 3;
         float result = number0 / number1;
         System.out.println(result);
+
+
+        System.out.println(ferrari.PS);
     }
 }
+
+
