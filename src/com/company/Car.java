@@ -23,12 +23,12 @@ public class Car {
     public static void main(String[] args){
         Car seat = new Car("grey", 300, false, "");
         Car ferrari = new Car("red", 600, true, "");
-        if(seat.isNew == true)
+        if(ferrari.isNew == true)
             seat.condition = "New";
         else
             seat.condition = "Occasion";
-        System.out.println(seat.isNew);
-        System.out.println(seat.condition);
+        System.out.println(ferrari.isNew);
+        System.out.println(ferrari.condition);
         System.out.println(ferrari.PS);
         seat.testDrive();
     }
